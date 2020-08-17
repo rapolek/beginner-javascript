@@ -1,12 +1,18 @@
 const people = [
   { name: 'Wes', cool: true, country: 'Canada' },
-  { name: 'Scott', cool: true, country: 'Merica' },
+  { name: 'Scott', cool: true, country: 'America' },
   { name: 'Snickers', cool: false, country: 'Dog Country' },
 ];
 
 people.forEach((person, index) => {
-  console.log(person.name);
+  console.groupCollapsed(`${person.name}`);
+  console.log(person.country);
+  console.log(person.cool);
+  console.log('DONE');
+  console.groupEnd(`${person.name}`);
 });
+
+console.table(people);
 
 // Console Methods
 
@@ -24,12 +30,20 @@ people.forEach((person, index) => {
 
 // Some Setup Code
 
+function doALotOfStuff() {
+  console.group('doing some stuff');
+  console.log('hey Im one');
+  console.warn('watch out!');
+  console.error('hey');
+  console.groupEnd('doing some stuff');
+}
+
 function doctorize(name) {
   return `Dr. ${name}`;
 }
 
 function greet(name) {
-  doesntExist();
+  doesntExist(); // this will cause an error
   return `Hello ${name}`;
 }
 
@@ -37,6 +51,13 @@ function go() {
   const name = doctorize(greet('Wes'));
   console.log(name);
 }
+
+function bootstrap() {
+  console.log('starting the app');
+  go();
+}
+
+// bootstrap();
 
 const button = document.querySelector('.bigger');
 button.addEventListener('click', function(e) {
