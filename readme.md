@@ -1,3 +1,8 @@
+# Solution Links
+
+- 16. [debugging](exercises/16%20-%20Debugging/debugging.html)
+- 20. [DOM cardio](exercises/20%20-%20The%20DOM/DOM-Cardio.html)
+
 ![](https://res.cloudinary.com/wesbos/image/upload/v1574876851/BJS/BJS-Social-Share.png)
 
 # Beginner JavaScript
