@@ -1,4 +1,4 @@
-# Solution Links
+# Solution Links [Live Version](https://rapolek.github.io/beginner-javascript/)
 
 16. [debugging](exercises/16%20-%20Debugging/debugging.html)
 20. [DOM cardio](exercises/20%20-%20The%20DOM/DOM-Cardio.html)
@@ -7,4 +7,4 @@
 
 # Beginner JavaScript
 
-These are the starter files and solutions to the [Beginner JavaScript](https://BeginnerJavaScript.com) course
+[Beginner JavaScript](https://BeginnerJavaScript.com) course.
